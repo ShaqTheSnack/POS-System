@@ -1,4 +1,5 @@
-POS System Web Application
+# POS System Web Application
+
 # Description
 This is a simple POS (Point of Sale) System web application that provides both a Manager and Operator interface. The application uses PouchDB to store and manage data locally. It supports basic CRUD operations for managing products, takes orders in the Operator page, and updates the total in the Manager page when an order is accepted.
 
