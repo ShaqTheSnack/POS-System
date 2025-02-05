@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manager</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/pouchdb@9.0.0/dist/pouchdb.min.js"></script>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="index.html">Operator</a>
+        <a class="active" href="manager.html">Manager</a>
+    </div>
+
+    <div id="PBox" class="passwordbox">
+        <h5>Adganskode:</h5>
+        <input type="password" minlength="4" placeholder="Skriv kode..." id="myInput" class="password-input">
+        <button class="passwordbutton" id="PasswordBtn">Login</button>
+    </div>
+
+    <div id="VBox" class="itembox"></div>
+
+    <div id="AddBtn" class="AddButton">
+        <button class="addmoreButton" onclick="addProduct()">Tilføj</button>
+        <button onclick="saveProduct()">Gem</button>
+    </div>
+
+    <script src="manager.js"></script>
+
+</body>
+</html>
